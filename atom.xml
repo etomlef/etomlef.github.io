@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://etomlef.github.io/atom.xml" rel="self"/>
+  <link href="http://etomlef.github.io/"/>
+  <updated>2013-10-23T02:04:38-04:00</updated>
+  <id>http://etomlef.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Man git is easy]]></title>
+    <link href="http://etomlef.github.io/blog/2013/10/23/man-git-is-easy/"/>
+    <updated>2013-10-23T01:07:00-04:00</updated>
+    <id>http://etomlef.github.io/blog/2013/10/23/man-git-is-easy</id>
+    <content type="html"><![CDATA[<p>la la la</p>
+]]></content>
+  </entry>
+  
+</feed>
