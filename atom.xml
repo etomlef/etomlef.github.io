@@ -4,7 +4,7 @@
   <title><![CDATA[etomlef.github.io]]></title>
   <link href="http://etomlef.github.io/atom.xml" rel="self"/>
   <link href="http://etomlef.github.io/"/>
-  <updated>2013-10-23T12:51:47-04:00</updated>
+  <updated>2013-10-23T18:11:17-04:00</updated>
   <id>http://etomlef.github.io/</id>
   <author>
     <name><![CDATA[Emily]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Changing the Look of your Octopress Blog.]]></title>
+    <link href="http://etomlef.github.io/blog/2013/10/23/changing-the-look-of-your-octopress-blog/"/>
+    <updated>2013-10-23T18:06:00-04:00</updated>
+    <id>http://etomlef.github.io/blog/2013/10/23/changing-the-look-of-your-octopress-blog</id>
+    <content type="html"><![CDATA[<p>So, once you make your Octopress blog, there are a ton of themes to choose from. If you&rsquo;d like to change your theme, you can find a ton by doing a simple Google search.</p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Octopress Themes</a></p>
+
+<p>For example, I installed the <a href="https://github.com/ryandeussing/octopress-minimalist">Minimalist theme</a> by doing the following &mdash;</p>
+
+<pre><code>cd octopress
+git clone git://github.com/ryandeussing/octopress-minimalist.git .themes/minimalist
+rake install['minimalist']
+rake generate
+</code></pre>
+
+<p>Then refer to the index.html and _config.yml files to set up your site (change links, add title, and so on.)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I have an Octopress!]]></title>
