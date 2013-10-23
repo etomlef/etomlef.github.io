@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Man git is easy - My Octopress Blog</title>
+  <title>I have an Octopress! - My Octopress Blog</title>
   <meta name="author" content="Emily">
 
   
-  <meta name="description" content="Testing, Testing, 1, 2, 3
-">
+  <meta name="description" content="So, as part of our first class, we had to create our own Octopress Blog. &ldquo;Octopress is a framework designed by Brandon Mathis for Jekyll, the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://etomlef.github.io/blog/2013/10/23/man-git-is-easy">
+  <link rel="canonical" href="http://etomlef.github.io/blog/2013/10/23/i-have-an-octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -53,7 +52,7 @@
   
   <header>
     
-      <h1 class="entry-title">Man Git Is Easy</h1>
+      <h1 class="entry-title">I Have an Octopress!</h1>
     
     
       <p class="meta">
@@ -69,14 +68,62 @@
   
 
 
-<time datetime="2013-10-23T01:07:00-04:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
+<time datetime="2013-10-23T12:40:00-04:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Testing, Testing, 1, 2, 3</p>
+<div class="entry-content"><p>So, as part of our first class, we had to create our own <a href="http://octopress.org/">Octopress Blog</a>. &ldquo;Octopress is a framework designed by Brandon Mathis for Jekyll, the blog aware static site generator powering Github Pages.&rdquo;</p>
+
+<p>Settimg it up was fairly straightforward.</p>
+
+<p>First &mdash;</p>
+
+<pre><code>git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+bundle install
+bundle exec rake install
+</code></pre>
+
+<p>Next &mdash;</p>
+
+<p>Set up a repo on Github named <strong>yourusername.github.io</strong></p>
+
+<p>Then back in Terminal &mdash;</p>
+
+<pre><code>rake setup_github_pages
+rake generate
+rake deploy
+</code></pre>
+
+<p>If you go to yourusername.github.io, you should see your blog! (It can take up to 10 minutes&hellip;)</p>
+
+<p>Create a new blog post &mdash;</p>
+
+<pre><code>rake new_post["This is the title of my first Blog post!]
+</code></pre>
+
+<p>Edit the markdown file, and then commit the changed files!</p>
+
+<p>If at any time you want to view your blog without having to actually deploy it, you can do so by running&hellip;</p>
+
+<pre><code>rake generate
+rake preview
+</code></pre>
+
+<p>Then go to <a href="http://localhost:4000/">http://localhost:4000/</a> in your browser.</p>
+
+<p>When your blog is looking how you&rsquo;d like it to look, simply</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+
+<p>to send it off to the interwebs.</p>
+
+<p>Ta daa!!</p>
 </div>
 
 
@@ -99,7 +146,7 @@
   
 
 
-<time datetime="2013-10-23T01:07:00-04:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
+<time datetime="2013-10-23T12:40:00-04:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
       
 
 
@@ -107,7 +154,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://etomlef.github.io/blog/2013/10/23/man-git-is-easy/" data-via="" data-counturl="http://etomlef.github.io/blog/2013/10/23/man-git-is-easy/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://etomlef.github.io/blog/2013/10/23/i-have-an-octopress/" data-via="" data-counturl="http://etomlef.github.io/blog/2013/10/23/i-have-an-octopress/" >Tweet</a>
   
   
   
@@ -116,8 +163,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/10/23/man-git-is-easy/" title="Previous Post: Man git is easy">&laquo; Man git is easy</a>
       
-        <a class="basic-alignment right" href="/blog/2013/10/23/i-have-an-octopress/" title="Next Post: I have an Octopress!">I have an Octopress! &raquo;</a>
       
     </p>
   </footer>

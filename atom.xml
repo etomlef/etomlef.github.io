@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://etomlef.github.io/atom.xml" rel="self"/>
   <link href="http://etomlef.github.io/"/>
-  <updated>2013-10-23T12:21:03-04:00</updated>
+  <updated>2013-10-23T12:49:15-04:00</updated>
   <id>http://etomlef.github.io/</id>
   <author>
     <name><![CDATA[Emily]]></name>
@@ -14,11 +14,68 @@
 
   
   <entry>
+    <title type="html"><![CDATA[I have an Octopress!]]></title>
+    <link href="http://etomlef.github.io/blog/2013/10/23/i-have-an-octopress/"/>
+    <updated>2013-10-23T12:40:00-04:00</updated>
+    <id>http://etomlef.github.io/blog/2013/10/23/i-have-an-octopress</id>
+    <content type="html"><![CDATA[<p>So, as part of our first class, we had to create our own <a href="http://octopress.org/">Octopress Blog</a>. &ldquo;Octopress is a framework designed by Brandon Mathis for Jekyll, the blog aware static site generator powering Github Pages.&rdquo;</p>
+
+<p>Settimg it up was fairly straightforward.</p>
+
+<p>First &mdash;</p>
+
+<pre><code>git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+bundle install
+bundle exec rake install
+</code></pre>
+
+<p>Next &mdash;</p>
+
+<p>Set up a repo on Github named <strong>yourusername.github.io</strong></p>
+
+<p>Then back in Terminal &mdash;</p>
+
+<pre><code>rake setup_github_pages
+rake generate
+rake deploy
+</code></pre>
+
+<p>If you go to yourusername.github.io, you should see your blog! (It can take up to 10 minutes&hellip;)</p>
+
+<p>Create a new blog post &mdash;</p>
+
+<pre><code>rake new_post["This is the title of my first Blog post!]
+</code></pre>
+
+<p>Edit the markdown file, and then commit the changed files!</p>
+
+<p>If at any time you want to view your blog without having to actually deploy it, you can do so by running&hellip;</p>
+
+<pre><code>rake generate
+rake preview
+</code></pre>
+
+<p>Then go to <a href="http://localhost:4000/">http://localhost:4000/</a> in your browser.</p>
+
+<p>When your blog is looking how you&rsquo;d like it to look, simply</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+
+<p>to send it off to the interwebs.</p>
+
+<p>Ta daa!!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Man git is easy]]></title>
     <link href="http://etomlef.github.io/blog/2013/10/23/man-git-is-easy/"/>
     <updated>2013-10-23T01:07:00-04:00</updated>
     <id>http://etomlef.github.io/blog/2013/10/23/man-git-is-easy</id>
-    <content type="html"><![CDATA[<p>la la la</p>
+    <content type="html"><![CDATA[<p>Testing, Testing, 1, 2, 3</p>
 ]]></content>
   </entry>
   
