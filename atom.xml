@@ -4,7 +4,7 @@
   <title><![CDATA[etomlef.github.io]]></title>
   <link href="http://etomlef.github.io/atom.xml" rel="self"/>
   <link href="http://etomlef.github.io/"/>
-  <updated>2013-10-23T18:11:17-04:00</updated>
+  <updated>2013-10-24T12:52:33-04:00</updated>
   <id>http://etomlef.github.io/</id>
   <author>
     <name><![CDATA[Emily]]></name>
@@ -66,7 +66,7 @@ rake deploy
 
 <p>Create a new blog post &mdash;</p>
 
-<pre><code>rake new_post["This is the title of my first Blog post!]
+<pre><code>rake new_post["This is the title of my first Blog post"]
 </code></pre>
 
 <p>Edit the markdown file, and then commit the changed files!</p>
